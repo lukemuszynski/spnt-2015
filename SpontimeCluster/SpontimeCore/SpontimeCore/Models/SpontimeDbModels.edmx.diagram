@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d92a4f8231464c40926cf594676b2fc7" Name="Diagram1">
+        <EntityTypeShape EntityType="spontimeDatabaseModel.AspNetUsers" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="spontimeDatabaseModel.ChatMessages" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="spontimeDatabaseModel.EventInvite" Width="1.5" PointX="5.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="spontimeDatabaseModel.Events" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="spontimeDatabaseModel.FriendInvites" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="spontimeDatabaseModel.Friends" Width="1.5" PointX="3" PointY="18.25" IsExpanded="true" />
+        <AssociationConnector Association="spontimeDatabaseModel.FK_ChatMessages_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="spontimeDatabaseModel.FK_EventInvite_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="spontimeDatabaseModel.FK_Events_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="spontimeDatabaseModel.FK_FriendInvitesFromUser_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="spontimeDatabaseModel.FK_FriendInvitesToUser_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="spontimeDatabaseModel.FK_FriendsFriendId_AspUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="spontimeDatabaseModel.FK_FriendsUserId_AspUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="spontimeDatabaseModel.FK_ChatMessages_Events" ManuallyRouted="false" />
+        <AssociationConnector Association="spontimeDatabaseModel.FK_EventInvite_Events" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
